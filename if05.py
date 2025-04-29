@@ -6,4 +6,5 @@ def main(n):
     Returns:
         int: return answer.
     """
-    return
+    return max([int(digit) for digit in str(n)])
+print(main(43562))
