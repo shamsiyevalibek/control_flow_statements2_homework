@@ -1,4 +1,4 @@
-def main(a,b,c):
+def main(a, b, c):
     """
     Determine the number between large and small.
     Args:
@@ -8,4 +8,10 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    if (a >= b and a <= c) or (a <= b and a >= c):
+        return a
+    elif (b >= a and b <= c) or (b <= a and b >= c):
+        return b
+    else:
+        return c
+print(main(5,8,9))
