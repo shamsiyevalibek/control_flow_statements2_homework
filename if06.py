@@ -6,4 +6,7 @@ def main(n):
     Returns:
         int: return answer.
     """
-    return
+    s = str(n)  
+    max_digit = max(s) 
+    return s.index(max_digit)
+print(main(56473))
