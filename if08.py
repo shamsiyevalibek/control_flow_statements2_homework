@@ -1,7 +1,7 @@
 def main(number):
     """
-    Return the days of the week, return the days of the week according to the numbers 1 to 7.
-    Use the elif statments.
+    Return the days of the week according to the numbers 1 to 7.
+    Use the elif statements.
     1: "Monday"
     2: "Tuesday"
     3: "Wednesday"
@@ -14,4 +14,20 @@ def main(number):
     Returns:
         str: return answer.
     """
-    return
+    if number == 1:
+        return "Monday"
+    elif number == 2:
+        return "Tuesday"
+    elif number == 3:
+        return "Wednesday"
+    elif number == 4:
+        return "Thursday"
+    elif number == 5:
+        return "Friday"
+    elif number == 6:
+        return "Saturday"
+    elif number == 7:
+        return "Sunday"
+    else:
+        return "Invalid number"
+print(main(8))
